@@ -1,0 +1,62 @@
+.sidebar-container{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    margin: auto 0;
+    padding: 10px 5px;
+    border-right: 1px solid #BDBDBD;
+    
+}
+
+.sidebar-container .sidebar-content{
+    padding: 10px 5px; 
+}
+
+.sidebar-container .sidebar-content .sidebar-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.sidebar-container .sidebar-content .sidebar-main h1{
+    margin-bottom: 20px;
+}
+.sidebar-container .sidebar-content .sidebar-main a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    color: #BDBDBD;
+    transition: 0.3s;
+}
+
+.sidebar-container .sidebar-content .sidebar-main a:hover{
+    color:#3751FF;
+}
+
+.sidebar-container .sidebar-content .sidebar-maintenance{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sidebar-container .sidebar-content .sidebar-maintenance h1{
+    margin-bottom: 20px;
+}
+.sidebar-container .sidebar-content .sidebar-maintenance a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    color: #BDBDBD;
+    transition: 0.3s;
+}
+
+.sidebar-container .sidebar-content .sidebar-maintenance a:hover{
+    color:#3751FF;
+}

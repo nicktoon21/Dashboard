@@ -1,0 +1,36 @@
+  #chart-container {
+    position: fixed;
+    top: 210px;
+    left: 40vh;
+    width: 800px;
+    height: 480px;
+    border: 1px solid #444a58;
+    margin: 50px ;
+    padding: 50px;
+  }
+  #chart-container:hover{
+    border: 1px solid #3751FF;
+  }
+  .value {
+    fill: #fff;
+  }
+  text {      
+    font-size: 12px;
+    fill: #8e98a2;
+  }
+  path {
+    stroke: #444a58;
+  }
+  line {
+    stroke: #444a58;
+  }
+  rect {
+    cursor: pointer;
+    fill: #4fc1f7;
+    border-radius: 10px;
+  }
+  h2{
+    position: fixed;
+    top: 280px;
+    left: 100vh;
+  }
